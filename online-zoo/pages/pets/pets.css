@@ -1,0 +1,938 @@
+.gag {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: transparent;
+}
+  
+.livecam {
+    width: 220px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    contain: size;
+}
+
+.toolPic {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #20113D;
+    height: 80px;
+    border-bottom: 1px solid #fff;
+    cursor: pointer;
+}
+  .toolPic > img {
+    height: 16px;
+    padding-right: 30px;
+  }
+  
+.toolPic__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 171px;
+    background-color: #20113D;
+    border-bottom: 1px solid #fff;
+}
+.toolPic__item > img {
+    position: absolute;
+}
+.toolPic__item_hidden {
+  visibility: hidden;
+}
+  
+.ellips {
+    padding-top: 8px;
+}
+  
+.sideBar {
+    display: flex;
+    flex-flow: column;
+    position: sticky;
+    top: 0;
+}
+  
+.webCam {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    padding: 6px 0;
+    background-color: #F58021;
+    border-radius: 0px 0px 5px 0px;
+}
+.webCam > img {
+    margin: 5px;
+}
+  
+.sideBar__scroll {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #20113D;
+}
+.wrapper__mainPats {
+    width: 1400px;
+  }
+  
+.mainPats__title {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 0 46px;
+}
+.mainPats__title > h2 {
+    padding-right: 198px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 54px;
+    line-height: 66px;
+    text-transform: uppercase;
+    color: #00A092;
+}
+  
+.mainPats__slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainPats__slider > h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    color: #000000;
+    text-transform: uppercase;
+    margin: 0 0 30px 0;
+}
+  
+.mainPats__slider__wripper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1226px;
+    padding-bottom: 150px;
+}
+  .mainPats__slider__wripper > button {
+    border: hidden;
+}
+  
+.sliderPats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc(1226px - 93px * 2);
+}
+  
+.sliderPats__item {
+    position: relative;
+}
+.sliderPats__item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 189px;
+    height: 44px;
+}
+.donation__for__pets{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    width: 873px;
+    height: 78px;
+}
+.don_height{
+    height: 245px;
+}
+.infoPats {
+    background-color: #fff;
+}
+.wrapper__infoPats {
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+    padding: 150px 0px 150px 0;
+}
+
+.infoPats__know {
+    width: 1040px;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+    padding: 46px 60px 50px;
+}
+.infoPats__know > h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #00A092;
+    margin: 0;
+}
+.infoPats__know > h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    width: 919px;
+}
+  
+.infoPats__card {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    align-items: center;
+}
+.infoPats__card__property {
+    display: flex;
+    justify-content: space-between;
+    width: 1159px;
+    margin: 147px 0px 50px 0;
+    align-self: end;
+}
+.infoPats__card__property > img {
+    width: 440px;
+    height: 440px;
+    border-radius: 5px;
+}
+.infoPats__card__property > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    max-width: 600px;
+    height: 382px;
+    justify-content: space-between;
+    display: flex;
+    flex-flow: column;
+}
+.infoPats__card__property > ul > li {
+    display: flex;
+    align-items: center;
+}
+.infoPats__card__property > ul > li > h4 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-right: 20px;
+}
+.infoPats__card__property > ul > li > p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: normal;
+    line-height: 150%;
+    margin: 0;
+}
+.infoPats__card__property > ul > li > a > button {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20.273px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #F58021;
+    width: 240px;
+    height: 74px;
+    background: transparent;
+    border: none;
+    background-image: url(./../../assets/icons/button-card-pets.svg);
+    background-position: calc(100% - 25px);;
+    background-repeat: no-repeat;
+    padding-right: 30px;
+}
+.infoPats__card__property > ul > li > a > button:hover {
+    background-color: #F58021;
+    border: none;
+    color: white;
+    background-image: url(./../../assets/icons/Union.png);
+    background-position: calc(100% - 25px);
+    background-repeat: no-repeat;
+}
+.infoPats__card__text {
+    padding-right: 220px;
+    align-self: end;
+}
+.infoPats__card__text > p {
+    font-weight: normal;
+    line-height: 150%;
+    margin: 0;
+}
+.but__lef{
+    margin-right: 0px;
+}
+
+
+@media (max-width: 1200px){
+    .livecam{
+        position: absolute;
+        top: 110px;
+        height: 1285px;
+        width: 116px;
+    }
+    .wripper__livecam{
+        height: 1287px;
+    }
+    .sideBar{
+        width: 115px;
+    }
+    .webCam{
+        display: none;
+    }
+    .toolPic > img{
+        padding-right: 50px;
+    }
+    .mainPats__title{
+        padding: 30px 40px 30px 300px;
+    }
+    .mainPats__title > h2{
+        padding-right: 71px;
+    }
+    .zoos{
+        height: 56px;
+        width: 240px;
+    }
+    .mainPats__video{
+        padding-left: 135px;
+    }
+    .mainPats__video > iframe{
+        width: 1025px;
+        height: 760px;
+    }
+    .mainPats__video > img{
+        left: 85%;
+        top: 123%;
+        position: absolute;
+        width: 101.44px;
+        height: 52.84px;
+    }
+    .mainPats__slider > h3{
+        margin: 10px 0 30px 84px;
+    }
+    .mainPats__slider__wripper{
+        width: 1025px;
+        padding-bottom: 51px;
+        margin-left: 100px;
+    }
+    .sliderPats__item > iframe{
+        width: 265px;
+        height: 209px;
+    }
+    .sliderPats{
+        width: 835px;
+    }
+    /* section donate */
+    .wrapp__donate{
+        width: 1120px;
+    }
+    .your__donacion > h3{
+        width: 707px;
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+    .donation__for__pets{
+        width: 739px;
+    }
+    .mainPats__slider__wripper > button {
+        margin-top: -24px;
+    }
+    .donation{
+        padding: 0px 0px;
+    }
+    .wrapper__infoPats{
+        padding: 100px 135px;
+    }
+    .infoPats__know{
+        width: 930px;
+        padding: 27px 60px 50px 98px;
+    }
+    .infoPats__know > h4{
+        width: 740px;
+    }
+    .infoPats__card__property{
+        margin: 77px 40px 50px 38px;
+        width: 1117px;
+    }
+    .infoPats__card__property > ul >li:nth-child(2){
+        margin-top: 25px;
+    }
+    .infoPats__card__property > ul >li:nth-child(3){
+        margin-top: 28px;
+    }
+    .infoPats__card__property > ul >li:nth-child(4){
+        margin-top: 19px;
+    }
+    .infoPats__card__property > ul >li:nth-child(5){
+        margin-top: 17px;
+    }
+    .infoPats__card__property > ul >li:nth-child(6){
+        margin-top: 18px;
+    }
+    .infoPats__card__property > img{
+        width: 454px;
+        height: 454px;
+    }
+    /* .infoPats__card__property > ul > li {
+        margin-bottom: 9px;
+    } */
+    .infoPats__card__text{
+        padding-right: 0px; 
+        margin-left: 35px;
+        width: 1120px;
+        padding-top: 3px;
+    }
+    .eagles__heigt{
+        height: 283px;
+    }
+    .gorilla__height{
+        height: 250px;
+    }
+    .toolPic__item > img{
+        display: none;
+    }
+    /* .toolPic__item > img{
+        background-image: url(online-zoo/assets/pets-pages/little-panda.svg);
+        position: absolute;
+    } */
+    .toolPic__item_lemurs{
+        background-image: url(./../../assets/pets-pages/yellow-lemur.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 24px 40px;
+    }
+    .toolPic__item_gorrila{
+        background-image: url(./../../assets/pets-pages/yellow-gorilla.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 45.33px 40px;
+    }
+    .toolPic__item_eagle{
+        background-image: url(./../../assets/pets-pages/yellow-eagles.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 42.67px 40px;
+    }
+    .toolPic__item_panda{
+        background-image: url(./../../assets/pets-pages/yellow-panda.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 53.33px 40px;
+    }
+    .active__panda{
+        background-image: url(./../../assets/pets-pages/white-panda.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 53.33px 40px;
+    }
+    .active__eagles{
+        background-image: url(./../../assets/pets-pages/white-Eagle.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 42.67px 40px;
+    }
+    .active__gorrila{
+        background-image: url(./../../assets/pets-pages/white-Gorilla.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 45.33px 40px;
+    }
+    .active__lemur{
+        background-image: url(./../../assets/pets-pages/white-Lemur.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 24px 40px;
+    }
+
+
+
+}
+
+@media (max-width: 640px){
+    .zoos{
+        position: absolute;
+        top: 521px;
+        width: 212px;
+        height: 48px;
+        left: 410px;
+    }
+    .livecam{
+        margin-top: 110px;
+        position: absolute;
+        height: 823px;
+        z-index: 10;
+        width: 78px;
+        top: 0;
+    }
+    .wripper__livecam{
+        height: 827px;
+        position: absolute;
+        z-index: 3;
+    }
+    .mainPats{
+        z-index: 6;
+        position: relative;
+        margin-top: 110px;
+    }
+    .mainPats__title{
+        padding: 19px 78px 13px 142px;
+    }
+    .mainPats__title > h2{
+        font-size: 42px;
+        padding-right: 0px;
+    }
+    .sideBar{
+        width: 78px;
+    }
+    .mainPats__video{
+        padding-left: 78px;
+    }
+    .mainPats__video > iframe{
+        width: 542px;
+        height: 402px;
+    }
+    .toolPic{
+        height: 50px;
+    }
+    .toolPic__item{
+        height: 100px;
+    }
+    .sideBar__scroll{
+        height: 50px;
+    }
+    .toolPic > img{
+        padding-right: 29px;
+    }
+    .mainPats__video > img{
+        width: 55.64px;
+        height: 188.94px;
+        z-index: 1;
+    }
+    .mainPats__video > img {
+        left: 85%;
+        top: 45%;
+    }
+    .mainPats__slider{
+        padding-top: 72px;
+    }
+    .mainPats__slider > h3{
+        font-size: 26px;
+        line-height: 130%;
+        text-transform: none;
+        margin: 10px 0 20px -84px;
+    }
+    .mainPats__slider__wripper{
+        margin-left: -415px;
+        padding-bottom: 35px;
+    }
+    .sliderPats__item > iframe{
+        width: 135px;
+        height: 106px;
+    }
+    .sliderPats{
+        width: 446px;
+    }
+    .sliderPats__item > img{
+        width: 72px;
+        height: 16.81px;
+    }
+    /* donation */
+    .your__donacion > h3{
+        width: 565px;
+        padding-top: 51px;
+        margin-bottom: 30px;
+        padding-left: 35px;
+    }
+    .don_height{
+        height: 515px;
+    }
+    .donation__for__pets{
+        width: 599px;
+    }
+    .your__donacion{
+        margin-bottom: 30px;
+    }
+    .infoPats__know{
+        width: 600px;
+        padding: 25px 60px 45px 54px;
+    }
+    .wrapper__infoPats {
+        padding: 80px 135px 100px 135px;
+    }
+    .infoPats{
+        overflow: hidden;
+    }
+    .infoPats__know > h4{
+        width: 540px;
+        margin-top: 29px;
+        padding-left: 10px;
+    }
+    .infoPats__card__property{
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 80px 20px;
+        align-self: center;
+        width: 640px;
+        padding-left: 20px;
+    }
+    .infoPats__card__property > img{
+        width: 600px;
+        height: 600px;
+    }
+    .infoPats__card__property > ul{
+        padding-top: 80px;
+    }
+    .infoPats__card__property > ul >li{  
+        margin-bottom: 0px;
+    }
+    .infoPats__card__text{
+        width: 610px;
+        padding-top: 51px;
+        padding-left: 7px;
+    }
+    .name-eagles{
+        margin-right: -7px;
+    }
+    .but-right{
+        display: none;
+    }
+    
+    
+
+
+}
+
+
+@media (max-width: 320px){
+    .header__burger{
+        left: 262px;
+    }
+    .navigation_nav.active{
+        left: 87px;
+    }
+    .menu {
+        padding-top: 130px;
+        padding-left: 38px;
+    }
+    .sideBar {
+        width: 50px;
+    }
+    .toolPic > img {
+        padding-right: 15px;
+    }
+    .active__panda{
+        background-size: 26px;
+    }
+    .toolPic__item {
+        height: 50px;
+    }
+    .toolPic__item_eagle{
+        background-size: 26px;
+    }
+    .toolPic__item_gorrila{
+        background-size: 26px;
+    }
+    .toolPic__item_lemurs{
+        background-size: 20px;
+    }
+    .toolPic__item_panda{
+        background-size: 26px;
+    }
+    .mainPats__title > h2{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .mainPats__title{
+        display: block;
+        padding: 20px 6px 14px 60px;
+    }
+    .mainPats__video > iframe {
+        width: 270px;
+        height: 200px;
+    }
+    .mainPats__video {
+        padding-left: 50px;
+    }
+    .mainPats__slider > h3{
+        font-size: 18px;
+        line-height: 22px;
+        margin: 17px 0 20px 0;
+        text-transform: uppercase;
+        padding-left: 22px;
+    }
+    .mainPats__slider {
+        padding-top: 0px;
+        width: 320px;
+        margin-bottom: 40px;
+    }
+    .sliderPats > div:nth-child(3){
+        display: none;
+    }
+    .sliderPats {
+        width: 320px;
+    }
+    .zoos {
+        left: 10px;
+        width: 300px;
+        height: 45px;
+    }
+    .mainPats__video > img {
+        width: 38.64px;
+        height: 204.94px;
+    }
+    .mainPats__video > img {
+        left: 82%;
+        top: 33%;
+    }
+    .mainPats__slider__wripper{
+        width: 295px;
+        margin-left: 0px;
+    }
+    .but-right{
+        display: none;
+    }
+    .but__lef{
+        display: none;
+    }
+    .donate__now{
+        top: 489px;
+    }
+    /* DONATION */
+    .wrapp__donate {
+        width: 320px;
+    }
+    .your__donacion{
+        margin-bottom: 0;
+    }
+    .your__donacion > h3 {
+        width: 320px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .donation__for__pets {
+        width: 300px;
+        height: 263px;
+        margin-left: 10px;
+    }
+    .quick__donate {
+        padding-top: 0px;
+    }
+    .quick__donate > h4{
+        padding-top: 30px;
+    }
+    .donate {
+        margin-left: 15px;
+    }
+    .forpets{
+        margin-top: -5px;
+    }
+    .don_height {
+        height: 539px;
+        margin-top: 111px;
+    }
+    /* DID YOU KNOW */
+    .wrapper__infoPats {
+        width: 320px;
+        padding: 50px 0px;
+    }
+    .infoPats__know {
+        height: 317px;
+        width: 300px;
+        padding: 30px 10px 50px 10px;
+    }
+    .infoPats__know > h3{
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .infoPats__know > h4{
+        width: 280px;
+        font-size: 18px;
+        line-height: 27px;
+        margin-top: 23px;
+        padding-left: 2px;
+    }
+    .infoPats__card__property > ul >li:nth-child(2){
+        margin-top: 5px;
+    }
+    .infoPats__card__property > ul >li:nth-child(3){
+        margin-top: -3px;
+    }
+    .infoPats__card__property > ul >li:nth-child(4){
+        margin-top: 1px;
+    }
+    .infoPats__card__property > ul >li:nth-child(5){
+        margin-top: 3px;
+    }
+    .infoPats__card__property > ul >li:nth-child(6){
+        margin-top: 0px;
+    }
+    .infoPats__card__property {
+        margin: 50px 0px;
+        width: 320px;
+        padding-left: 0px;
+    }
+    .infoPats__card__property > img {
+        width: 320px;
+        height: 320px;
+    }
+    .infoPats__card__property > ul {
+        padding-top: 50px;
+        align-self: end;
+        height: 645px;
+    }
+    .infoPats__card__property > ul >li {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .infoPats__card__property > ul >li >a{
+        margin-top: 29px;
+        margin-left: 33px;
+    }
+    .infoPats__card__property > ul >li >a > button{
+        background-position: calc(100% - 36px);
+    }
+    .infoPats__card__property > ul >li >a > button:hover{
+        background-position: calc(100% - 36px);
+    }
+    .infoPats__card__property > ul > li > h4{
+        margin-left: 10px;
+    }
+    .infoPats__card__property > ul > li > p{
+        margin-left: 11px;
+        width: 300px;
+    }
+    .infoPats__card__text {
+        width: 300px;
+        margin-left: 3px;
+        margin-top: 39px;
+        padding-top: 0px;
+    }
+
+    .name-eagles{
+        margin-left: -9px;
+    }
+    .eagles__heigt{
+        height: 581px;
+    }
+    .knoweagles{
+        height: 482px;
+    }
+    .cardtexteagles{
+        margin-top: 96px;
+        margin-bottom: 28px;
+    }
+    #quickgorilla{
+        padding-top: 0;
+    }
+
+    .footer__logo > img:first-child{
+        margin-bottom: 27px;
+    }
+    .wrapper__mainPats {
+        width: 320px;
+    }
+    .map{
+        overflow: hidden;
+    }
+    .footer{
+        overflow: hidden;
+    }
+    .livecam {
+        top: 0;
+        position: absolute;
+        height: 301px;
+        width: 50px;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        z-index: 20;
+    }
+    .mainPats{
+        margin-top: 110px;
+    }
+    .wripper__livecam {
+        height: 300px;
+    }
+
+
+
+
+}
+
+
+/* //////////////// */
+.livecam-width{
+    width: 300px;
+}
+.display{
+    display: none;
+}
+.newDisplay{
+    display: block;
+}
+.newpic{
+    display: none;
+}
+.toolPic_p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    max-width: 176px;
+    /* padding: 51px 17px 51px 114px; */
+}
+.bar-on-max{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    background-color: #20113D;
+    border-bottom: 1px solid #fff;
+}
+.topPic{
+    height: 685px;
+    overflow: hidden;
+    content-visibility: auto;
+}
+.topPick__slide{
+    /* bottom: 171px; */
+    position: relative;
+    transition: 0.1s;
+}
+/* ////////////////// */
